@@ -1,5 +1,9 @@
 
 
+  
+    
+  
+
 
   
 
@@ -22,19 +26,23 @@
 
     <link rel="icon" href="images/favicon.png">
     
-      <link rel="alternate" type="application/rss+xml" title="RSS" href="https://melihkurtaran.github.io/tags/vue.js/index.xml">
-    
 
     
-    <meta name="description" content="Melih Kurtaran Personal Web Page">
-    <meta property="og:description" content="Melih Kurtaran Personal Web Page">
+    <meta name="description" content="Merhabalar bu yazımda Vue.js den bahsedeceğim.
+Vue.js web arayüzleri oluşturmak için geliştirilen bir JavaScript kütüphanesidir. Evan You tarafından geliştirilmeye başlanmıştır. Benzerlerinin aksine öğrenimi kolay ve basittir. Ayrıca moduler yapı oluşturmak için alt yapıya sahiptir.
+">
+    <meta property="og:description" content="Merhabalar bu yazımda Vue.js den bahsedeceğim.
+Vue.js web arayüzleri oluşturmak için geliştirilen bir JavaScript kütüphanesidir. Evan You tarafından geliştirilmeye başlanmıştır. Benzerlerinin aksine öğrenimi kolay ve basittir. Ayrıca moduler yapı oluşturmak için alt yapıya sahiptir.
+">
     <meta property="og:type" content="blog">
     <meta property="og:title" content="Vue.js">
-    <meta property="og:url" content="/tags/vue.js/">
+    <meta property="og:url" content="/2017/01/vue.js/">
     <meta property="og:site_name" content="Melih Kurtaran">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Melih Kurtaran">
-    <meta name="twitter:description" content="Melih Kurtaran Personal Web Page">
+    <meta name="twitter:description" content="Merhabalar bu yazımda Vue.js den bahsedeceğim.
+Vue.js web arayüzleri oluşturmak için geliştirilen bir JavaScript kütüphanesidir. Evan You tarafından geliştirilmeye başlanmıştır. Benzerlerinin aksine öğrenimi kolay ve basittir. Ayrıca moduler yapı oluşturmak için alt yapıya sahiptir.
+">
     
     
 
@@ -45,6 +53,8 @@
       <meta property="og:image" content="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAwSAAAAJDRkNWY5OWZlLWY3MzEtNGIyMi1hOGExLWY3MDVmNmM5MmUyZg.jpg">
     
 
+    
+      <meta property="og:image" content="https://melihkurtaran.github.io/images/vue.png">
     
     
     
@@ -69,7 +79,7 @@
 
   <body>
     <div id="blog">
-      <header id="header" data-behavior="1">
+      <header id="header" data-behavior="4">
   <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
   <div class="header-title">
     <a class="header-title-link" href="https://melihkurtaran.github.io/">Melih Kurtaran</a>
@@ -89,7 +99,7 @@
   
 </header>
 
-      <nav id="sidebar" data-behavior="1">
+      <nav id="sidebar" data-behavior="4">
   <div class="sidebar-container">
     
       <div class="sidebar-profile">
@@ -198,35 +208,21 @@
 </nav>
 
       
-        
 
-      
-      <div id="main" data-behavior="1"
+      <div id="main" data-behavior="4"
         class="
-               hasCoverMetaIn
+               hasCoverMetaOut
                ">
-        
-          <section class="postShorten-group main-content-wrap">
-            
-            
-              
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+          
+            <div class="post-header main-content-wrap text-center">
   
-    
+    <h1 class="post-title" itemprop="headline">
+      Vue.js
+    </h1>
   
-
-
   
-
-<article class="postShorten postShorten--thumbnailimg-left" itemscope itemType="http://schema.org/BlogPosting">
-  <div class="postShorten-wrap">
-    
-    <div class="postShorten-header">
-      <h1 class="postShorten-title" itemprop="headline">
-        <a class="link-unstyled" href="https://melihkurtaran.github.io/2017/01/vue.js/">
-          Vue.js
-        </a>
-      </h1>
-      
   <div class="postShorten-meta post-meta">
     
       <time itemprop="datePublished" datetime="2017-01-12T00:00:00Z">
@@ -251,31 +247,128 @@
 
   </div>
 
-    </div>
-    <div class="postShorten-excerpt" itemprop="articleBody">
-      <p>Merhabalar bu yazımda Vue.js den bahsedeceğim.
+</div>
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              <p>Merhabalar bu yazımda Vue.js den bahsedeceğim.
 Vue.js web arayüzleri oluşturmak için geliştirilen bir JavaScript kütüphanesidir. Evan You tarafından geliştirilmeye başlanmıştır. Benzerlerinin aksine öğrenimi kolay ve basittir. Ayrıca moduler yapı oluşturmak için alt yapıya sahiptir.
 </p>
-      <p>
-        <a href="https://melihkurtaran.github.io/2017/01/vue.js/" class="postShorten-excerpt_link link">Continue reading</a>
+
+<h4 id="neden-vue-js-i-kullanalım">Neden Vue.js i kullanalım?</h4>
+
+<p>JavaScript&rsquo;in kolayca yazılabilmesine olanak sağlamaktadır. Vue.js ile başlamak son derece kolaydır. Dokümantasyonları sayesinde öğrenimi kolay ve kaynak kodu oldukça fazladır. Dış kütüphanelere ihtiyacınız yoktur. JQuery olmadan da kullanabilirsiniz. Pek çok eklenti olmasına rağmen herhangi bir eklenti kurmanıza gerek kalmamaktadır. Ayrıca Github veya web üzerinde örnek projeler ve yazılar oldukça fazladır.</p>
+
+<h4 id="vue-js-vs-diğer-frameworkler">Vue.js vs Diğer Frameworkler</h4>
+
+<p>Angular :
+&ndash; Vue.js API ve Tasarım açısından Angular’a göre daha kolaydır. Hızlı bir şekilde öğrenip,  kolayca uygulama geliştirmeye başlayabiliyorsunuz.
+&ndash; Vue.js Angular’a göre daha esnek bir yapıdadır. Angular gibi her şeyi onun istediği gibi yapmanızı isteyen, içerisinde belki kullanmayacağınız onlarca özellik olan bir yapı değil. Vue’da interface katmanı bulunuyor. Böylelikle kullanmadığınız özellikler yüzünden projeniz büyümüyor.</p>
+
+<p>React :
+&ndash; React&rsquo;a nazaran vue.js ile çalışmak daha basit ve kolaydır.
+&ndash; Bir çok benzerlikleri bulunmaktadır.</p>
+
+<p>Daha detaylı karşılaştırmaları görmek için bu link&rsquo;etıklayabilirsiniz.</p>
+
+<p>Sonuç olarak öğrenimi kolay ve basit olan bir framework ile hızlıca projeler geliştirebilir ve güzel sonuçlar alabilirsiniz.
+Örnek modüler bir proje yapısı isterseniz Github adresimden forklayabilirsiniz.
+Yada <a href="https://github.com/mrpehlivan/vue-2.0-boilerplate">buradan</a> direk erişebilirsiniz.</p>
+
+<p>Yardımcı olabilecek linkler :  <br/>
+Vue.js : <a href="https://vuejs.org/">https://vuejs.org/</a> <br/>
+Awesome Vue  : <a href="https://github.com/vuejs/awesome-vue">https://github.com/vuejs/awesome-vue</a></p>
+
+<p>Kolay Gelsin..</p>
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">TAGGED IN</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="https://melihkurtaran.github.io/tags/javascript/">javascript</a>
+
+  <a class="tag tag--primary tag--small" href="https://melihkurtaran.github.io/tags/single-page/">single-page</a>
+
+  <a class="tag tag--primary tag--small" href="https://melihkurtaran.github.io/tags/vue.js/">vue.js</a>
+
+                  </div>
+                
+              
+            
+            
+  <div class="post-actions-wrap">
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--disabled">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--disabled">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
         
-      </p>
-    </div>
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://melihkurtaran.github.io/2017/01/vue.js/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://melihkurtaran.github.io/2017/01/vue.js/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://melihkurtaran.github.io/2017/01/vue.js/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+      
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
   </div>
-  
-    <a href="https://melihkurtaran.github.io/2017/01/vue.js/">
-      <div class="postShorten-thumbnailimg">
-        <img alt="" itemprop="image" src="https://melihkurtaran.github.io/images/vue.png"/>
-      </div>
-    </a>
-  
-</article>
+
 
             
+              
             
-
-          </section>
-        
+          </div>
+        </article>
         <footer id="footer" class="main-content-wrap">
   <span class="copyrights">
     &copy; 2018 Melih Kurtaran. All Rights Reserved
@@ -283,6 +376,96 @@ Vue.js web arayüzleri oluşturmak için geliştirilen bir JavaScript kütüphan
 </footer>
 
       </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+        
+  <div class="post-actions-wrap">
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--disabled">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--disabled">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://melihkurtaran.github.io/2017/01/vue.js/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://melihkurtaran.github.io/2017/01/vue.js/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://melihkurtaran.github.io/2017/01/vue.js/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+      
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="4">
+  <i id="btn-close-shareoptions" class="fa fa-close"></i>
+  <ul class="share-options">
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmelihkurtaran.github.io%2F2017%2F01%2Fvue.js%2F">
+          <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fmelihkurtaran.github.io%2F2017%2F01%2Fvue.js%2F">
+          <i class="fa fa-twitter"></i><span>Share on Twitter</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https%3A%2F%2Fmelihkurtaran.github.io%2F2017%2F01%2Fvue.js%2F">
+          <i class="fa fa-google-plus"></i><span>Share on Google&#43;</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
     </div>
     
     <div id="about">
@@ -395,6 +578,10 @@ $(document).ready(function() {
 });
 </script>
 
+
+  
+    
+  
 
 
 

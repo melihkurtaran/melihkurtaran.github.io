@@ -13,10 +13,10 @@
     
     <item>
       <title>Vue.js</title>
-      <link>https://melihkurtaran.github.io/vue-js/</link>
+      <link>https://melihkurtaran.github.io/2017/01/vue.js/</link>
       <pubDate>Thu, 12 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://melihkurtaran.github.io/vue-js/</guid>
+      <guid>https://melihkurtaran.github.io/2017/01/vue.js/</guid>
       <description>&lt;p&gt;Merhabalar bu yazımda Vue.js den bahsedeceğim.
 Vue.js web arayüzleri oluşturmak için geliştirilen bir JavaScript kütüphanesidir. Evan You tarafından geliştirilmeye başlanmıştır. Benzerlerinin aksine öğrenimi kolay ve basittir. Ayrıca moduler yapı oluşturmak için alt yapıya sahiptir.
 &lt;/p&gt;</description>

@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://melihkurtaran.github.io/vue-js/</loc>
+    <loc>https://melihkurtaran.github.io/2017/01/vue.js/</loc>
     <lastmod>2017-01-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -20,6 +20,12 @@
   
   <url>
     <loc>https://melihkurtaran.github.io/</loc>
+    <lastmod>2017-01-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://melihkurtaran.github.io/post/</loc>
     <lastmod>2017-01-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
